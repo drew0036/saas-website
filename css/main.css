@@ -1,7 +1,142 @@
 html {
   font-family: Montserrat, sans-serif;
+  background-color: #FAFAFA;
 }
 
 h1, h2, h3, h4, h5 {
   font-family: Raleway, sans-serif;
 }
+
+/* Header */
+
+header {
+  background-color: #f05581;
+  max-height: 100px;
+  margin: 0;
+}
+
+.logo {
+  color: #fdf100;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  background-color: #f05581;
+  display: none;
+}
+
+.nav a {
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav a:hover {
+  background-color: #F3A71D;
+}
+
+.nav-check ~ label {
+  display: none;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: inline-block;
+  width: 40px;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: #fdf100;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+/* .nav-check {
+  position: absolute;
+  top: -3em;
+} */
+
+.nav-label img {
+  display: block;
+  width: 100%;
+}
+
+.current {
+  text-decoration: underline;
+}
+
+.signup-btn {
+  color: #f05581;
+  font-family: Raleway, sans-serif;
+  background-color: #fff;
+  border: 0px;
+  border-radius: 20px;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.signup-btn:hover {
+  background-color: #F3A71D;
+  color: #fff;
+}
+
+/* Header End */
+/*
+Banner */
+
+.vid {
+  display: none;
+}
+
+.card {
+  background-color: #F4A1AF;
+  color: #fff;
+  border: 3px;
+  max-width: 30em;
+}
+
+.signup-btn-2 {
+  font-family: Raleway, sans-serif;
+  background-color: #fff;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  color: #f05581;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.signup-btn-2:hover {
+  background-color: #F3A71D;
+  color: #fff;
+  border: 3px solid #F3A71D;
+}
+
+.login {
+  color: #fff;
+}
+
+.vid-ab {
+  position: absolute;
+  }
+
+.content-rel{
+  position: relative;
+}
+/* Tour Section */
+
+.products, .services {
+  max-width: 30em;
+  max-height: 50em;
+}
+
+
+@media only screen and (min-width: 25em) {
+
+  .vid {
+    display: block;
+  }
