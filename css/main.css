@@ -20,10 +20,13 @@ header {
 }
 
 .nav {
-  margin: 0;
-  padding: 0;
+  color: #fff;
   background-color: #f05581;
   display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 15em;
 }
 
 .nav a {
@@ -31,14 +34,21 @@ header {
   padding: 0.5em;
   text-decoration: none;
   color: #fff;
+  font-family: Raleway, sans-serif;
 }
 
 .nav a:hover {
   background-color: #F3A71D;
+  color: #fff;
 }
 
-.nav-check ~ label {
-  display: none;
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
 }
 
 .nav-label {
@@ -46,20 +56,24 @@ header {
   font-size: 1.25rem;
   display: inline-block;
   width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-image: image("images/hamburger.png");
+  background-size: 40px auto;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
 }
 
 .nav-check:checked ~ .nav-label {
   background-color: #fdf100;
 }
 
-.nav-check:checked ~ .nav {
-  display: block;
+.nav-check ~ label {
+  display: none;
 }
-
-/* .nav-check {
-  position: absolute;
-  top: -3em;
-} */
 
 .nav-label img {
   display: block;
