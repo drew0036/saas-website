@@ -116,6 +116,16 @@ Banner */
   text-align: left;
 }
 
+.re-2 {
+  position: relative;
+}
+
+.ab-2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
 @media only screen and (min-width: 25em) {
 
