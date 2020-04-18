@@ -16,41 +16,36 @@
     <li><a href="#main" aria-label="Skip to the main content">Skip to the main content</a></li>
     <li><a href="#nav" aria-label="Skip to navigation">Skip to navigation</a></li>
   </ul>
-<header role="banner">
-  <div class="grid grid-middle wrapper">
-    <div class="unit xs-1-2 s-1-2 m-1-3 l-2-6">
-      <h1 class="logo push-0 text-left gutter">STACKS</h1>
-    </div>
-    <div class="unit xs-0 s-0 m-0 l-1-6">
-      <div class="unit-content-center">
-        <a class="signup-btn btn link-box" href="sign-up.html" aria-label="Sign-Up">Sign Up</a>
+
+  <header role="banner">
+    <div class="grid grid-middle wrapper">
+      <div class="unit xs-1-2 s-1-2 m-1-3 l-2-6">
+        <h1 class="logo push-0 text-left gutter">STACKS</h1>
+      </div>
+      <div class="unit xs-0 s-0 m-0 l-1-2">
+        <nav role="navigation" id="nav" tabindex="0">
+          <ol class="nav group-list list-group-inline push-0">
+            <li class="current gutter-1-4"><a href="index.html" aria-label="Homepage"></a>Home</li>
+            <li class="gutter-1-4"><a href="#" aria-label="Pricing"></a>Pricing</li>
+            <li class="gutter-1-4"><a href="tour.html" aria-label="Features"></a>Features</li>
+            <li class="gutter-1-4"><a href="#" aria-label="Contact"></a>Contact</li>
+          </ol>
+        </nav>
+      </div>
+      <div class="unit xs-0 s-0 m-0 l-1-6">
+        <div class="unit-content-center">
+          <a class="signup-btn btn link-box" href="sign-up.html" aria-label="Sign-Up">Sign Up</a>
+        </div>
       </div>
     </div>
-    <div class="unit xs-1-2 s-1-2">
-      <nav role="navigation" id="nav" tabindex="0">
-        <input type="checkbox" class="nav-check" id="nav-check">
-        <label class="nav-label" for="nav-check">
-          <img src="images/hamburger.png" alt="Open Navigation">
-        </label>
-        <div class="nav">
-          <ul class="group-list">
-            <li class="current"><a href="index.html" aria-label="Homepage"></a>Home</li>
-            <li><a href="#" aria-label="Pricing"></a>Pricing</li>
-            <li><a href="tour.html" aria-label="Features"></a>Features</li>
-            <li><a href="#" aria-label="Contact"></a>Contact</li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </div>
-</header>
+  </header>
 <!-- Links to Products & Features -->
 <main main role="main" id="main" tabindex="0">
 
   <section>
     <div class="banner embed embed-16by9">
       <video class="embed-item vid" src="video/homepage-banner.mp4" controls></video>
-      <div class="banner-content card pin-c w-1 max-length gutter text-center pad-t pad-b">
+      <div class="banner-content banner-card pin-c w-1 max-length gutter text-center pad-t pad-b">
         <p class="block text-center">Streamline your business with the tools to supercharge every step of the web-to-print process.</p>
         <a class="btn signup-btn-2 push-1-2" href="sign-up.html" aria-label="Sign-Up">Sign Up</a>
         <a class="login block text-center" href="sign-up.html" aria-label="Login">Login</a>
@@ -60,26 +55,53 @@
 
 
 
-  <section class="grid wrapper block center-content-horizontal">
-    <div class="unit xs-1 s-1 m-1-2 l-1-2 products island gutter">
+  <section class="grid wrapper block center-content-horizontal pad-t-2">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 products gutter">
       <img class="img-flex products-img" src="images/homepage-products.png" alt="woman flipping through book" aria-details="products">
-      <h2><a href="#" aria-label="Products"></a>Products</h2>
+      <h2 class="text-center"><a href="#" aria-label="Products"></a>Products</h2>
       <p id="products">Go corner to corner and edge to edge across an entire two-page spread without losing any part of the image to the center.</p>
     </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-2 services island gutter">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 services gutter">
       <img class="img-flex services-img" src="images/homepage-services.png" alt="woman assisting a client" aria-details="services">
-      <h2><a href="" aria-label="Services"></a>Services</h2>
+      <h2 class="text-center"><a href="" aria-label="Services"></a>Services</h2>
       <p id="services">Get assistance with large book printing orders from our in-house experts, who can help bring your project to life.</p>
     </div>
   </section>
   <!-- Reviews -->
-  <section>
-
+  <section class="wrapper pad-t pad-b">
+    <h2 class="gutter text-center pad-t">Testimonials</h2>
+    <ul class="cards center-content-horizontal grid grid-stretch group-list list-group-inline">
+      <li class="unit">
+        <blockquote>
+          “I love my little 5x5 inch book of photos. I made it in bed before coffee which says a lot about how user friendly and dummy proof the platform is. And the price is great too, especially with the frequent deals.”
+        </blockquote>
+        <p class="milli italic text-right">- Dixie, S.</p>
+      </li>
+      <li class="unit">
+        <blockquote>
+          “All the albums so far have been excellent! The quality of the pages, the binding, the support of the Blurb team, everything is great!”
+        </blockquote>
+        <p class="milli italic text-right">- Helen, T.</p>
+      </li>
+      <li class="unit">
+        <blockquote>
+          “If you go to the Stacks website and search for “Raymond Johns” you can see he hasn’t published a book since Nov 13, 2016. Blurb is writing fake reviews for itself on this site.”
+        </blockquote>
+        <p class="milli italic text-right">- Doug, M.</p>
+      </li>
+    </ul>
   </section>
   <!-- Newsletter -->
-  <section>
+  <section class="newsletter">
+    <img class="img-flex" src="images/newsletter.png" alt="photo of a laptop and cup of coffee">
+    <div class="newsletter-form">
+      <form class="" action="index.html" method="post">
 
+      </form>
+
+    </div>
   </section>
+
 </main>
 
 <footer>

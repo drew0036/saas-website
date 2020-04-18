@@ -21,63 +21,7 @@ header {
 
 .nav {
   color: #fff;
-  background-color: #f05581;
-  display: none;
-  position: absolute;
-  right: 0;
-  top: 100%;
-  width: 15em;
-}
-
-.nav a {
-  display: block;
-  padding: 0.5em;
-  text-decoration: none;
-  color: #fff;
   font-family: Raleway, sans-serif;
-}
-
-.nav a:hover {
-  background-color: #F3A71D;
-  color: #fff;
-}
-
-.nav-check {
-  position: absolute;
-  top: -3em;
-}
-
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
-.nav-label {
-  cursor: pointer;
-  font-size: 1.25rem;
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  background-image: image("images/hamburger.png");
-  background-size: 40px auto;
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-}
-
-.nav-check:checked ~ .nav-label {
-  background-color: #fdf100;
-}
-
-.nav-check ~ label {
-  display: none;
-}
-
-.nav-label img {
-  display: block;
-  width: 100%;
 }
 
 .current {
@@ -107,7 +51,7 @@ Banner */
   display: none;
 }
 
-.card {
+.banner-card {
   background-color: #F4A1AF;
   color: #fff;
   border: 3px;
@@ -134,6 +78,10 @@ Banner */
   color: #fff;
 }
 
+.login:hover {
+  color: #000;
+}
+
 .vid-ab {
   position: absolute;
   }
@@ -146,6 +94,26 @@ Banner */
 .products, .services {
   max-width: 30em;
   max-height: 50em;
+}
+
+/* Testimonials */
+
+.cards {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.cards li {
+  display: inline-block;
+  margin: 0 .5em 1em;
+  max-width: 16em;
+  padding: 1em;
+  background-color: #fff;
+  border: 3px solid #F4A1AF;
+  border-radius: 10px;
+  text-align: left;
 }
 
 
