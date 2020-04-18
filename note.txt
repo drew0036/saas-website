@@ -1,3 +1,270 @@
+<!-- Header & Nav -->
+<ul class="skip-links">
+  <li><a href="#main" aria-label="Skip to the main content">Skip to the main content</a></li>
+  <li><a href="#nav" aria-label="Skip to navigation">Skip to navigation</a></li>
+</ul>
+
+<header role="banner">
+  <div class="grid grid-middle wrapper">
+    <div class="unit xs-1-2 s-1-2 m-1-3 l-2-6">
+      <h1 class="logo push-0 text-left gutter">STACKS</h1>
+    </div>
+    <div class="unit xs-0 s-0 m-0 l-1-2">
+      <nav role="navigation" id="nav" tabindex="0">
+        <ol class="nav list-group list-group-inline push-0">
+          <li class="current gutter-1-4"><a href="index.html" aria-label="Homepage"></a>Home</li>
+          <li class="gutter-1-4"><a href="#" aria-label="Pricing"></a>Pricing</li>
+          <li class="gutter-1-4"><a href="tour.html" aria-label="Features"></a>Features</li>
+          <li class="gutter-1-4"><a href="#" aria-label="Contact"></a>Contact</li>
+        </ol>
+      </nav>
+    </div>
+    <div class="unit xs-0 s-0 m-0 l-1-6">
+      <div class="unit-content-center">
+        <a class="signup-btn btn link-box" href="sign-up.html" aria-label="Sign-Up">Sign Up</a>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Links to Products & Features -->
+<main main role="main" id="main" tabindex="0">
+
+<section>
+  <div class="banner embed embed-16by9">
+    <video class="embed-item vid" src="video/homepage-banner.mp4" controls></video>
+    <div class="banner-content banner-card pin-c w-1 max-length gutter text-center pad-t pad-b">
+      <p class="block text-center">Streamline your business with the tools to supercharge every step of the web-to-print process.</p>
+      <a class="btn signup-btn-2 push-1-2" href="sign-up.html" aria-label="Sign-Up">Sign Up</a>
+      <a class="login block text-center" href="sign-up.html" aria-label="Login">Login</a>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="grid wrapper block center-content-horizontal pad-t-2">
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 products gutter">
+    <img class="img-flex products-img" src="images/homepage-products.png" alt="woman flipping through book" aria-details="products">
+    <h2 class="text-center"><a href="#" aria-label="Products"></a>Products</h2>
+    <p id="products">Go corner to corner and edge to edge across an entire two-page spread without losing any part of the image to the center.</p>
+  </div>
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 services gutter">
+    <img class="img-flex services-img" src="images/homepage-services.png" alt="woman assisting a client" aria-details="services">
+    <h2 class="text-center"><a href="" aria-label="Services"></a>Services</h2>
+    <p id="services">Get assistance with large book printing orders from our in-house experts, who can help bring your project to life.</p>
+  </div>
+</section>
+<!-- Reviews -->
+<section class="wrapper pad-t pad-b">
+  <h2 class="gutter text-center pad-t">Testimonials</h2>
+  <ul class="cards center-content-horizontal grid grid-stretch group-list list-group-inline">
+    <li class="unit">
+      <blockquote>
+        “I love my little 5x5 inch book of photos. I made it in bed before coffee which says a lot about how user friendly and dummy proof the platform is. And the price is great too, especially with the frequent deals.”
+      </blockquote>
+      <p class="milli italic text-right">- Dixie, S.</p>
+    </li>
+    <li class="unit">
+      <blockquote>
+        “All the albums so far have been excellent! The quality of the pages, the binding, the support of the Blurb team, everything is great!”
+      </blockquote>
+      <p class="milli italic text-right">- Helen, T.</p>
+    </li>
+    <li class="unit">
+      <blockquote>
+        “If you go to the Stacks website and search for “Raymond Johns” you can see he hasn’t published a book since Nov 13, 2016. Blurb is writing fake reviews for itself on this site.”
+      </blockquote>
+      <p class="milli italic text-right">- Doug, M.</p>
+    </li>
+  </ul>
+</section>
+<!-- Newsletter -->
+<section class="newsletter">
+  <div class="re-2">
+    <img class="img-flex" src="images/newsletter.png" alt="photo of a laptop and cup of coffee">
+  </div>
+  <div class="ab-2">
+    <form class="" method="POST" action="https://formspree.io/drew0036@algonquinlive.com">
+      <fieldset class="max-length">
+        <legend>Looking to boost production?</legend>
+          <label for="email">Sign up for our email</label>
+          <input class="push" id="email" type="email" required placeholder="me@me.ca">
+          <div class="">
+            <button type="submit" class="btn">Sign me up!</button>
+            <input type="hidden" name="_subject" value="Request to join the mission">
+          </div>
+      </fieldset>
+    </form>
+  </div>
+</section>
+</main>
+<footer>
+<img class="img-flex footer-img" src="images/footer-decor.png" alt="pink and yellow lines">
+<div class="footer-wrap">
+  <div class="footer-content">
+    <div class="footer-nav text-center pad-t pad-b">
+      <nav role="navigation" id="nav" tabindex="0">
+        <ol class="nav list-group push-0">
+          <li class="current"><a href="index.html" aria-label="Homepage"></a>Home</li>
+          <li><a href="#" aria-label="Pricing"></a>Pricing</li>
+          <li><a href="tour.html" aria-label="Features"></a>Features</li>
+          <li><a href="#" aria-label="Contact"></a>Contact</li>
+        </ol>
+      </nav>
+    </div>
+    <div class="text-center">
+      <ol class="list-group">
+        <li><p>Contact Sales 1-XXX-XXX-XXXX</p></li>
+        <li><p>Tech Support 1-XXX-XXX-XXXX</p></li>
+      </ol>
+    </div>
+    <div class="text-center">
+      <small>Copyright STACKS 2020</small>
+    </div>
+  </div>
+</div>
+</footer>
+
+
+------------------------------------------------
+
+/* Header */
+
+header {
+  background-color: #f05581;
+  max-height: 100px;
+  margin: 0;
+}
+
+.logo {
+  color: #fdf100;
+}
+
+.nav {
+  color: #fff;
+  font-family: Raleway, sans-serif;
+}
+
+.current {
+  text-decoration: underline;
+}
+
+.signup-btn {
+  color: #f05581;
+  font-family: Raleway, sans-serif;
+  background-color: #fff;
+  border: 0px;
+  border-radius: 20px;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.signup-btn:hover {
+  background-color: #F3A71D;
+  color: #fff;
+}
+
+/* Header End */
+/*
+Banner */
+
+.vid {
+  display: none;
+}
+
+.banner-card {
+  background-color: #F4A1AF;
+  color: #fff;
+  border: 3px;
+  max-width: 30em;
+}
+
+.signup-btn-2 {
+  font-family: Raleway, sans-serif;
+  background-color: #fff;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  color: #f05581;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.signup-btn-2:hover {
+  background-color: #F3A71D;
+  color: #fff;
+  border: 3px solid #F3A71D;
+}
+
+.login {
+  color: #fff;
+}
+
+.login:hover {
+  color: #000;
+}
+
+.vid-ab {
+  position: absolute;
+  }
+
+.content-rel{
+  position: relative;
+}
+/* Tour Section */
+
+.products, .services {
+  max-width: 30em;
+  max-height: 50em;
+}
+
+/* Testimonials */
+
+.cards {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.cards li {
+  display: inline-block;
+  margin: 0 .5em 1em;
+  max-width: 16em;
+  padding: 1em;
+  background-color: #fff;
+  border: 3px solid #F4A1AF;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.re-2 {
+  position: relative;
+}
+
+.ab-2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  color: #fff;
+  background-color: #f05581;
+}
+
+footer nav li {
+  padding: .5rem 0;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .vid {
+    display: block;
+  }
+
+------------------------------------------------
+
 <section class="banner grid push-2 relative">
 
   <div class="grid signup-card absolute pad-t pad-b pin-c">
@@ -252,3 +519,155 @@
       </div>
     </div>
   </section>
+
+
+
+
+
+
+
+
+
+
+  html {
+    font-family: Montserrat, sans-serif;
+    background-color: #FAFAFA;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: Raleway, sans-serif;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  header {
+    background-color: #f05581;
+    padding: 1em 0 40px;
+    text-align: center;
+    position: relative;
+  }
+
+  .logo {
+    text-align: left;
+    color: #fdf100;
+    margin-left: 1em;
+  }
+
+  .nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #f05581;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 15em;
+  }
+
+  .nav a {
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .nav a:hover {
+    background-color: #F3A71D;
+    color: #fff;
+  }
+
+  .nav-check {
+    position: absolute;
+    top: -3em;
+  }
+
+  .nav-check:checked ~ .nav {
+    display: block;
+  }
+
+  .nav-label {
+    cursor: pointer;
+    display: inline-block;
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    background-image: url("../images/nav-icon.png");
+    background-size: 40px auto;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+  }
+
+  .nav-open,
+  .nav-close {
+    display: block;
+    width: 100%;
+  }
+
+  .nav-check:checked ~ .nav-label {
+    background-color: #f05581;
+    background-position: center bottom;
+  }
+
+  .nav-close {
+    display: none;
+  }
+
+  .nav-check:checked ~ .nav-label .nav-open {
+    display: none;
+  }
+
+  .nav-check:checked ~ .nav-label .nav-close {
+    display: block;
+  }
+
+  @media only screen and (min-width: 24em) {
+
+    .nav {
+      width: 100%;
+    }
+
+    .nav ul {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .nav li {
+      width: 50%;
+    }
+
+    .nav-check,
+    .nav-label {
+      display: none;
+    }
+
+  }
+
+  @media only screen and (min-width: 30em) {
+
+    header {
+      padding-bottom: 0;
+    }
+
+    .nav {
+      display: block;
+      position: static;
+    }
+
+    .nav ul {
+      justify-content: center;
+      flex-wrap: nowrap;
+    }
+
+    .nav li {
+      width: auto;
+    }
+
+  }

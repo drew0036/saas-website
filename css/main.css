@@ -3,49 +3,116 @@ html {
   background-color: #FAFAFA;
 }
 
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #f05581;
+  position: relative;
+  display: flex;
+}
+
 h1, h2, h3, h4, h5 {
   font-family: Raleway, sans-serif;
 }
 
-/* Header */
-
-header {
-  background-color: #f05581;
-  max-height: 100px;
+h1 {
+  display: inline-block;
+  color: #fdf100;
   margin: 0;
 }
 
-.logo {
-  color: #fdf100;
-}
-
 .nav {
-  color: #fff;
-  font-family: Raleway, sans-serif;
+  /* margin: 0;
+  padding: 0;
+  list-style-type: none; */
+  background-color: #f05581;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 15em;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
-.current {
-  text-decoration: underline;
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .signup-btn {
-  color: #f05581;
   font-family: Raleway, sans-serif;
-  background-color: #fff;
+  background-color: #F3A71D;
   border: 0px;
-  border-radius: 20px;
-  padding-left: 2em;
-  padding-right: 2em;
+  border-radius: 5px;
+  padding: 0 2em;
 }
 
-.signup-btn:hover {
-  background-color: #F3A71D;
+.nav a {
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
   color: #fff;
 }
 
-/* Header End */
-/*
-Banner */
+.nav a:hover {
+  background-color: #F4A1AF;
+  border: 0px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+  background-image: url("../images/nav-icon.png");
+  background-size: 40px auto;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: #f05581;
+  background-position: center bottom;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
 
 .vid {
   display: none;
@@ -64,8 +131,7 @@ Banner */
   border: 3px solid #fff;
   border-radius: 20px;
   color: #f05581;
-  padding-left: 4em;
-  padding-right: 4em;
+  padding: 0 2em;
 }
 
 .signup-btn-2:hover {
@@ -89,14 +155,27 @@ Banner */
 .content-rel{
   position: relative;
 }
-/* Tour Section */
+
+.tour-jump-btn a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #f05581;
+  border: 1px solid #f05581;
+  border-radius: 20px;
+  padding: 0 0.75em;
+  margin: 0;
+}
+
+.tour-jump-btn a:hover {
+  color: #fff;
+  background-color: #F3A71D;
+  border: 1px solid #F3A71D;
+}
 
 .products, .services {
   max-width: 30em;
   max-height: 50em;
 }
-
-/* Testimonials */
 
 .cards {
   margin: 0;
@@ -116,28 +195,62 @@ Banner */
   text-align: left;
 }
 
-.re-2 {
-  position: relative;
+.test-name {
+  color: #f05581;
 }
 
-.ab-2 {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
+@media only screen and (min-width: 24em) {
 
-footer {
-  color: #fff;
-  background-color: #f05581;
-}
-
-footer nav li {
-  padding: .5rem 0;
-}
-
-@media only screen and (min-width: 25em) {
+  .banner-card {
+    border-radius: 10px;
+  }
 
   .vid {
-    display: block;
+    display: inline-block;
   }
+
+}
+
+
+@media only screen and (min-width: 38em) {
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .nav-open, .nav-close {
+    display: none;
+  }
+
+  header {
+  padding-bottom: 0;
+  }
+
+  .nav-check,
+  .nav-label {
+    display: none;
+  }
+
+  .nav {
+    display: inline;
+    position: static;
+  }
+
+  .nav ul {
+    display: inline;
+    flex-wrap: nowrap;
+    width: auto;
+  }
+
+  .nav li {
+    display: inline-block;
+    width: auto;
+  }
+
+  .vid {
+    display: inline-block;
+  }
+
+}
