@@ -34,13 +34,82 @@
     </div>
   </div>
 </header>
-<section class="placeholder wrapper island-2 gutter-2">
-  <p>“There is no such thing as a new idea. It is impossible. We simply take a lot of old ideas and put them into a sort of mental kaleidoscope. We give them a turn and they make new and curious combinations. We keep on turning and making new combinations indefinitely; but they are the same old pieces of colored glass that have been in use through all the ages.”</p>
+<section class="signup-form wrapper">
+  <form class="island" method="POST" action="https://formspree.io/drew0036@algonquinlive.com">
+    <fieldset>
+      <legend class="form-subtitle mega">Personal details</legend>
+      <div class="grid">
+        <div class="push-1-2 unit xs-1 s-1 m-1-2 l-1-2 form-indent">
+          <label class="push-1-4" for="name">Full name</label>
+          <input id="name" name="name" required>
+          <p class="italic micro push-0">Your full legal name, for insurance purposes, e.g. “Johnny Appleseed.”</p>
+        </div>
+        <div class="push-1-2 unit xs-1 s-1 m-1-2 l-1-2 form-indent">
+          <label class="push-1-4" for="email">Email</label>
+          <input id="email" type="email" required placeholder="me@me.ca">
+        </div>
+        <div class="push-1-2 unit xs-1 s-1 m-1-2 l-1-2 form-indent">
+          <label class="push-1-4" for="phone">Phone number <i>(optional)</i></label>
+          <input id="phone" type="tel" name="phone" placeholder="123-455-7890">
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend class="form-subtitle mega">Pricing Plans</legend>
+        <div class="form-indent">
+          <label for="subject"></label>
+          <select id="subject" name="subject">
+            <option value="">Select a plan</option>
+            <option>Seedling</option>
+            <option>Sprouts</option>
+            <option>Bloom</option>
+            <option>Garden Enterprise</option>
+          </select>
+        </div>
+    </fieldset>
+    <fieldset>
+      <legend class="form-subtitle mega">Where did you hear about us? <i>(Optional)</i></legend>
+      <div class="grid form-indent">
+        <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
+          <input type="checkbox" id="digging" name="digging">
+          <label for="digging">Social Media</label>
+        </div>
+        <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
+          <input type="checkbox" id="dirt" name="dirt">
+          <label for="dirt">Tv</label>
+        </div>
+        <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
+          <input type="checkbox" id="lifting" name="lifting">
+          <label for="lifting">Radio</label>
+        </div>
+        <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
+          <input type="checkbox" id="driving" name="driving">
+          <label for="driving">Flyer</label>
+        </div>
+        <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
+          <input type="checkbox" id="trees" name="trees">
+          <label for="trees">Billboard</label>
+        </div>
+        <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
+          <input type="checkbox" id="photos" name="photos">
+          <label for="photos">From a friend</label>
+        </div>
+        <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
+          <input type="checkbox" id="photos" name="photos">
+          <label for="photos">Other</label>
+        </div>
+      </div>
+    </fieldset>
+    <div class="center-content push">
+      <button type="submit" class="btn form-btn center-content">Submit</button>
+      <input type="hidden" name="_subject" value="Request to join the mission">
+    </div>
+  </form>
 </section>
-<section>
+<section class="Newsletter">
   <form class="email-form island" method="POST" action="https://formspree.io/drew0036@algonquinlive.com">
     <fieldset class="max-length push-0">
-      <legend class="giga">Looking to boost production?</legend>
+      <legend class="giga">Looking for expert advice?</legend>
         <label class="push-1-4" for="email">Sign up for our email</label>
         <input class="push" id="email" type="email" required placeholder="me@me.ca">
         <div>

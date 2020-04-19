@@ -28,6 +28,10 @@ h1 {
   text-decoration: underline;
 }
 
+.current-2 {
+  color: #4F5EAB;
+}
+
 .nav {
   /* margin: 0;
   padding: 0;
@@ -66,7 +70,7 @@ h1 {
 }
 
 .nav a:hover {
-  background-color: #F4A1AF;
+  background-color: #4F5EAB;
   border: 0px;
   border-radius: 5px;
   color: #fff;
@@ -268,6 +272,29 @@ footer li a:hover {
 
 footer h4 {
   color: #4F5EAB;
+}
+
+/* Form */
+
+.form-subtitle {
+  color: #f05581;
+}
+
+.form-indent {
+  padding-left: 20px;
+}
+
+.form-btn {
+  color: #fff;
+  background-color: #f05581;
+  border: 1px solid #f05581;
+  border-radius: 10px;
+  padding: 0.5em 2em;
+}
+
+.form-btn:hover {
+  background-color: #F3A71D;
+  border: 1px solid #F3A71D;
 }
 
 @media only screen and (min-width: 24em) {
