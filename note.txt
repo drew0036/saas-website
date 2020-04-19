@@ -671,3 +671,30 @@ footer nav li {
     }
 
   }
+
+
+
+  --------------------------
+
+  footer-img {
+    max-height: 100px;
+  }
+
+
+
+  footer li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  footer li {
+    padding: 1em 0;
+  }
+
+  footer dl {
+    padding: 0.5em 0;
+  }
+
+  .footer-nav {
+    display: inline;
+  }

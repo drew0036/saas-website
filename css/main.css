@@ -11,6 +11,7 @@ header {
   background-color: #f05581;
   position: relative;
   display: flex;
+  z-index: 2;
 }
 
 h1, h2, h3, h4, h5 {
@@ -21,6 +22,10 @@ h1 {
   display: inline-block;
   color: #fdf100;
   margin: 0;
+}
+
+.current {
+  text-decoration: underline;
 }
 
 .nav {
@@ -56,6 +61,8 @@ h1 {
   padding: 0.5em;
   text-decoration: none;
   color: #fff;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
 }
 
 .nav a:hover {
@@ -114,6 +121,8 @@ h1 {
   display: block;
 }
 
+/* Video Banner */
+
 .vid {
   display: none;
 }
@@ -123,6 +132,7 @@ h1 {
   color: #fff;
   border: 3px;
   max-width: 30em;
+  z-index: 1;
 }
 
 .signup-btn-2 {
@@ -156,6 +166,8 @@ h1 {
   position: relative;
 }
 
+/* Tour Section */
+
 .tour-jump-btn a {
   color: #fff;
   text-decoration: none;
@@ -176,6 +188,8 @@ h1 {
   max-width: 30em;
   max-height: 50em;
 }
+
+/* Testimonials */
 
 .cards {
   margin: 0;
@@ -199,6 +213,63 @@ h1 {
   color: #f05581;
 }
 
+/* Newsletter */
+
+.email-form {
+  background-color: #F3A71D;
+  width: 100%;
+}
+
+legend {
+  font-family: Raleway, sans-serif;
+  color: #4F5EAB;
+  font-weight: 700;
+}
+
+fieldset {
+  border: 0;
+}
+
+.signup-btn-3 {
+  color: #fff;
+  background-color: #4F5EAB;
+  border: 0px;
+}
+
+.signup-btn-3:hover {
+  color: #fff;
+  background-color: #f05581;
+  border: 0px;
+}
+
+/* Footer */
+
+footer {
+  color: #fff;
+  background-color: #f05581;
+}
+
+footer li {
+  padding: 0.5em 1em;
+  display: inline;
+  text-align: left;
+}
+
+footer li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+}
+
+footer li a:hover {
+  color: #4F5EAB;
+}
+
+footer h4 {
+  color: #4F5EAB;
+}
+
 @media only screen and (min-width: 24em) {
 
   .banner-card {
@@ -214,7 +285,10 @@ h1 {
 
 @media only screen and (min-width: 38em) {
 
-
+  footer li {
+    display: block;
+    text-align: center;
+  }
 
 }
 
@@ -249,8 +323,15 @@ h1 {
     width: auto;
   }
 
+/* Banner */
+
   .vid {
     display: inline-block;
   }
+
+}
+
+@media only screen and (min-width: 60em) {
+
 
 }
