@@ -297,6 +297,16 @@ footer h4 {
   border: 1px solid #F3A71D;
 }
 
+/* Tour Page */
+
+.tour-banner {
+  max-height: 800px;
+}
+
+.table-img {
+  width: 50%;
+}
+
 @media only screen and (min-width: 24em) {
 
   .banner-card {
