@@ -698,3 +698,325 @@ footer nav li {
   .footer-nav {
     display: inline;
   }
+
+
+  colgroup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  tbody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  td {
+    display: block;
+  }
+
+
+  --------------------------
+
+  <caption>Products</caption>
+  <tbody>
+    <tr>
+      <td><img class="col-1 img-flex" src="images/product-1.png" alt=""></td>
+      <td><img class="col-1 img-flex" src="images/product-2.png" alt=""></td>
+      <td><img class="col-1 img-flex" src="images/product-3.png" alt=""></td>
+    </tr>
+    <tr>
+      <td class="col-1">Photo Books</td>
+      <td class="col-1">Trade Books</td>
+      <td class="col-1">Business Cards</td>
+    </tr>
+    <tr>
+      <td class="col-1">Create your visual story in the most beautiful way with a professional-quality photo book.</td>
+      <td class="col-1">Balance print quality with page cost so you can get more of your work in the world.</td>
+      <td class="col-1">A standard 2x3 inch card that displays contact information for an individual employed by a company.</td>
+    </tr>
+    <tr>
+      <td><img class="col-1 img-flex" src="images/product-4.png" alt=""></td>
+      <td><img class="col-1 img-flex" src="images/product-5.png" alt=""></td>
+      <td><img class="col-1 img-flex" src="images/product-6.png" alt=""></td>
+    </tr>
+    <tr>
+      <td class="col-1">Notebooks</td>
+      <td class="col-1">Magazines</td>
+      <td class="col-1">Flyers</td>
+    </tr>
+    <tr>
+      <td class="col-1">Our notebooks are completely custom, cover to cover. Get started quickly and easily on your next notebook or journal in our book-making tool BookRight.</td>
+      <td class="col-1">Put your brilliant ideas in print with a newsstand-quality magazine, great for serial content or high-volume printing projects.</td>
+      <td onload=""class="col-1">A flyer is a form of paper advertisement intended for wide distribution and typically posted or distributed in a public place, handed out to individuals or sent through the mail..</td>
+    </tr>
+  </tbody>
+
+  <section class="wrapper products-table">
+    <div class="tg-wrap">
+      <table class="tg" style="width: 100%">
+        <caption>Products</caption>
+        <tbody>
+          <colgroup>
+            <col style="width: 110px">
+            <col style="width: 108px">
+            <col style="width: 418px">
+            <col style="width: 578px">
+          </colgroup>
+            <tr>
+              <td><img class="col-1 img-flex" src="images/product-1.png" alt=""></td>
+              <td class="col-1">Photo Books</td>
+              <td class="col-1">Create your visual story in the most beautiful way with a professional-quality photo book.</td>
+            </tr>
+            <tr>
+              <td><img class="col-1 img-flex" src="images/product-2.png" alt=""></td>
+              <td class="col-1">Trade Books</td>
+              <td class="col-1">Balance print quality with page cost so you can get more of your work in the world.</td>
+            </tr>
+            <tr>
+              <td><img class="col-1 img-flex" src="images/product-3.png" alt=""></td>
+              <td class="col-1">Business Cards</td>
+              <td class="col-1">A standard 2x3 inch card that displays contact information for an individual employed by a company.</td>
+            </tr>
+            <tr>
+              <td><img class="col-1 img-flex" src="images/product-4.png" alt=""></td>
+              <td class="col-1">Notebooks</td>
+              <td class="col-1">Our notebooks are completely custom, cover to cover. Get started quickly and easily on your next notebook or journal in our book-making tool BookRight.</td>
+            </tr>
+            <tr>
+              <td><img class="col-1 img-flex" src="images/product-5.png" alt=""></td>
+              <td class="col-1">Magazines</td>
+              <td class="col-1">Put your brilliant ideas in print with a newsstand-quality magazine, great for serial content or high-volume printing projects.</td>
+            </tr>
+            <tr>
+              <td><img class="col-1 img-flex" src="images/product-6.png" alt=""></td>
+              <td class="col-1">Flyers</td>
+              <td onload=""class="col-1">A flyer is a form of paper advertisement intended for wide distribution and typically posted or distributed in a public place, handed out to individuals or sent through the mail..</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </section>
+
+
+  <tbody>
+    <tr>
+      <div class="t-c">
+        <td><img class="col-1 img-flex" src="images/product-1.png" alt=""></td>
+        <td class="col-1">Photo Books</td>
+        <td class="col-1">Create your visual story in the most beautiful way with a professional-quality photo book.</td>
+      </div>
+    </tr>
+    <tr>
+      <div class="t-c">
+        <td><img class="col-1 img-flex" src="images/product-2.png" alt=""></td>
+        <td class="col-1">Trade Books</td>
+        <td class="col-1">Balance print quality with page cost so you can get more of your work in the world.</td>
+      </div>
+    </tr>
+    <tr>
+      <div class="t-c">
+        <td><img class="col-1 img-flex" src="images/product-3.png" alt=""></td>
+        <td class="col-1">Business Cards</td>
+        <td class="col-1">A standard 2x3 inch card that displays contact information for an individual employed by a company.</td>
+      </div>
+    </tr>
+    <tr>
+      <td><img class="col-1 img-flex" src="images/product-4.png" alt=""></td>
+      <td class="col-1">Notebooks</td>
+      <td class="col-1">Our notebooks are completely custom, cover to cover. Get started quickly and easily on your next notebook or journal in our book-making tool BookRight.</td>
+    </tr>
+    <tr>
+      <td><img class="col-1 img-flex" src="images/product-5.png" alt=""></td>
+      <td class="col-1">Magazines</td>
+      <td class="col-1">Put your brilliant ideas in print with a newsstand-quality magazine, great for serial content or high-volume printing projects.</td>
+    </tr>
+    <tr>
+      <td><img class="col-1 img-flex" src="images/product-6.png" alt=""></td>
+      <td class="col-1">Flyers</td>
+      <td onload=""class="col-1">A flyer is a form of paper advertisement intended for wide distribution and typically posted or distributed in a public place, handed out to individuals or sent through the mail..</td>
+    </tr>
+  </tbody>
+
+--------------------------
+
+  /* Tour Page */
+
+  .tour-banner {
+    max-height: 800px;
+  }
+
+  table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
+
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  @media screen and (max-width: 600px) {
+
+    table {
+      border: 0;
+    }
+
+    table caption {
+      font-size: 1.3em;
+    }
+
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+
+    table tr {
+      border-bottom: 3px solid #ddd;
+      margin-bottom: .625em;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      vertical-align: middle;
+    }
+
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      font-size: .8em;
+      text-align: right;
+    }
+
+    table td::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  @media only screen and (min-width: 24em) {
+
+    .banner-card {
+      border-radius: 10px;
+    }
+
+    .vid {
+      display: inline-block;
+    }
+
+  }
+
+
+  @media only screen and (min-width: 38em) {
+
+    footer li {
+      display: block;
+      text-align: center;
+    }
+
+  }
+
+  @media only screen and (min-width: 60em) {
+
+    .nav-open, .nav-close {
+      display: none;
+    }
+
+    header {
+    padding-bottom: 0;
+    }
+
+    .nav-check,
+    .nav-label {
+      display: none;
+    }
+
+    .nav {
+      display: inline;
+      position: static;
+    }
+
+    .nav ul {
+      display: inline;
+      flex-wrap: nowrap;
+      width: auto;
+    }
+
+    .nav li {
+      display: inline-block;
+      width: auto;
+    }
+
+  /* Banner */
+
+    .vid {
+      display: inline-block;
+    }
+
+  }
+
+  @media only screen and (min-width: 60em) {
+
+
+  }
+
+
+  tr {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  table img {
+    width: 100%;
+  }
+
+
+    tr {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .t-c {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      flex-basis: 50%;
+    }

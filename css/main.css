@@ -301,10 +301,36 @@ footer h4 {
 
 .tour-banner {
   max-height: 800px;
+  display: none;
 }
 
-.table-img {
-  width: 50%;
+table {
+  width: 100%;
+  height: auto;
+}
+
+tr {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.5em;
+}
+
+td {
+  border-bottom: 0px;
+}
+
+caption {
+  color: #f05581;
+  font-weight: 700;
+}
+
+.product-title {
+  color: #4F5EAB;
+  font-weight: 700;
+}
+
+.tour-quote {
+  display: none;
 }
 
 @media only screen and (min-width: 24em) {
@@ -315,6 +341,20 @@ footer h4 {
 
   .vid {
     display: inline-block;
+  }
+
+  tbody {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .col-1 {
+    max-width: 15em;
+  }
+
+  .col-2 {
+    max-width: 20em;
   }
 
 }
@@ -364,6 +404,21 @@ footer h4 {
 
   .vid {
     display: inline-block;
+  }
+
+  .tour-banner {
+    display: block;
+  }
+
+  .tour-quote {
+    display: inline;
+    max-width: 38em;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+    color: #4F5EAB;
+    font-weight: 700;
   }
 
 }
