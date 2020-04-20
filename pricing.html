@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>STACKS Pricing</title>
+  <title>STACKS Sign-Up</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
@@ -10,6 +10,10 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Raleway:wght@400;700;800;900&display=swap" rel="stylesheet">
 </head>
+<ul class="skip-links">
+  <li><a href="#main" aria-label="Skip to the main content">Skip to the main content</a></li>
+  <li><a href="#nav" aria-label="Skip to navigation">Skip to navigation</a></li>
+</ul>
 <body>
   <header role="banner">
     <div class="grid wrapper grid-middle">
@@ -17,7 +21,7 @@
         <h1 class="logo gutter">STACKS</h1>
       </div>
       <div class="unit xs-4-6-content-shrink s-4-6-content-shrink m-4-6 l-1-2 push-1-4">
-        <nav>
+        <nav role="navigation" id="nav" tabindex="0">
           <input type="checkbox" class="nav-check" id="nav-check">
           <label class="nav-label" for="nav-check">
             <img class="nav-open img-flex" src="images/menu-01.png" alt="Open Navigation">
@@ -34,92 +38,94 @@
       </div>
     </div>
   </header>
-  <section class="signup-form wrapper">
-    <form class="island" method="POST" action="https://formspree.io/drew0036@algonquinlive.com">
-      <fieldset>
-        <legend class="form-subtitle mega">Personal details</legend>
-        <div class="grid">
-          <div class="push-1-2 unit xs-1 s-1 m-1-2 l-1-2 form-indent">
-            <label class="push-1-4" for="name">Full name</label>
-            <input id="name" name="name" required>
-            <p class="italic micro push-0">Your full legal name, for insurance purposes, e.g. “Johnny Appleseed.”</p>
+  <main role="main" id="main" tabindex="0">
+    <section class="signup-form wrapper">
+      <form class="island" method="POST" action="https://formspree.io/drew0036@algonquinlive.com">
+        <fieldset>
+          <legend class="form-subtitle mega">Personal details</legend>
+          <div class="grid">
+            <div class="push-1-2 unit xs-1 s-1 m-1-2 l-1-2 form-indent">
+              <label class="push-1-4" for="name">Full name</label>
+              <input id="name" name="name" required>
+              <p class="italic micro push-0">Your full legal name, for insurance purposes, e.g. “Johnny Appleseed.”</p>
+            </div>
+            <div class="push-1-2 unit xs-1 s-1 m-1-2 l-1-2 form-indent">
+              <label class="push-1-4" for="email">Email</label>
+              <input id="email" type="email" required placeholder="me@me.ca">
+            </div>
+            <div class="push-1-2 unit xs-1 s-1 m-1-2 l-1-2 form-indent">
+              <label class="push-1-4" for="phone">Phone number <i>(optional)</i></label>
+              <input id="phone" type="tel" name="phone" placeholder="123-455-7890">
+            </div>
           </div>
-          <div class="push-1-2 unit xs-1 s-1 m-1-2 l-1-2 form-indent">
-            <label class="push-1-4" for="email">Email</label>
-            <input id="email" type="email" required placeholder="me@me.ca">
+        </fieldset>
+        <fieldset>
+          <legend class="form-subtitle mega">Pricing Plans</legend>
+            <div class="form-indent">
+              <label for="subject"></label>
+              <select id="subject" name="subject">
+                <option value="">Select a plan</option>
+                <option>Seedling</option>
+                <option>Sprouts</option>
+                <option>Bloom</option>
+                <option>Garden Enterprise</option>
+              </select>
+            </div>
+        </fieldset>
+        <fieldset>
+          <legend class="form-subtitle mega">Where did you hear about us? <i>(Optional)</i></legend>
+          <div class="grid form-indent">
+            <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
+              <input type="checkbox" id="social-media" name="social-media">
+              <label for="social-media">Social Media</label>
+            </div>
+            <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
+              <input type="checkbox" id="tv" name="tv">
+              <label for="tv">Tv</label>
+            </div>
+            <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
+              <input type="checkbox" id="radio" name="radio">
+              <label for="radio">Radio</label>
+            </div>
+            <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
+              <input type="checkbox" id="flyer" name="flyer">
+              <label for="flyer">Flyer</label>
+            </div>
+            <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
+              <input type="checkbox" id="billboard" name="billboard">
+              <label for="billboard">Billboard</label>
+            </div>
+            <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
+              <input type="checkbox" id="friend" name="friend">
+              <label for="friend">From a friend</label>
+            </div>
+            <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
+              <input type="checkbox" id="other" name="other">
+              <label for="other">Other</label>
+            </div>
           </div>
-          <div class="push-1-2 unit xs-1 s-1 m-1-2 l-1-2 form-indent">
-            <label class="push-1-4" for="phone">Phone number <i>(optional)</i></label>
-            <input id="phone" type="tel" name="phone" placeholder="123-455-7890">
-          </div>
+        </fieldset>
+        <div class="center-content push">
+          <button type="submit" class="btn form-btn center-content">Submit</button>
+          <input type="hidden" name="_subject" value="Request to join the mission">
         </div>
-      </fieldset>
-      <fieldset>
-        <legend class="form-subtitle mega">Pricing Plans</legend>
-          <div class="form-indent">
-            <label for="subject"></label>
-            <select id="subject" name="subject">
-              <option value="">Select a plan</option>
-              <option>Seedling</option>
-              <option>Sprouts</option>
-              <option>Bloom</option>
-              <option>Garden Enterprise</option>
-            </select>
-          </div>
-      </fieldset>
-      <fieldset>
-        <legend class="form-subtitle mega">Where did you hear about us? <i>(Optional)</i></legend>
-        <div class="grid form-indent">
-          <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
-            <input type="checkbox" id="social-media" name="social-media">
-            <label for="social-media">Social Media</label>
-          </div>
-          <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
-            <input type="checkbox" id="tv" name="tv">
-            <label for="tv">Tv</label>
-          </div>
-          <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
-            <input type="checkbox" id="radio" name="radio">
-            <label for="radio">Radio</label>
-          </div>
-          <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
-            <input type="checkbox" id="flyer" name="flyer">
-            <label for="flyer">Flyer</label>
-          </div>
-          <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
-            <input type="checkbox" id="billboard" name="billboard">
-            <label for="billboard">Billboard</label>
-          </div>
-          <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
-            <input type="checkbox" id="friend" name="friend">
-            <label for="friend">From a friend</label>
-          </div>
-          <div class="push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
-            <input type="checkbox" id="other" name="other">
-            <label for="other">Other</label>
-          </div>
-        </div>
-      </fieldset>
-      <div class="center-content push">
-        <button type="submit" class="btn form-btn center-content">Submit</button>
-        <input type="hidden" name="_subject" value="Request to join the mission">
-      </div>
-    </form>
-  </section>
-  <section class="Newsletter">
-    <form class="email-form island" method="POST" action="https://formspree.io/drew0036@algonquinlive.com">
-      <fieldset class="max-length push-0">
-        <legend class="giga">Looking for expert advice?</legend>
-          <label class="push-1-4" for="newsletter">Sign up for our email</label>
-          <input class="push" id="newsletter" type="newsletter" required placeholder="me@me.ca">
-          <div>
-            <button type="submit" class="signup-btn-3 btn">Sign me up!</button>
-            <input type="hidden" name="_subject" value="Request to join the mission">
-          </div>
-      </fieldset>
-    </form>
-  </section>
-  <footer>
+      </form>
+    </section>
+    <section class="Newsletter">
+      <form class="email-form island" method="POST" action="https://formspree.io/drew0036@algonquinlive.com">
+        <fieldset class="max-length push-0">
+          <legend class="giga">Looking for expert advice?</legend>
+            <label class="push-1-4" for="newsletter">Sign up for our email</label>
+            <input class="push" id="newsletter" type="newsletter" required placeholder="me@me.ca">
+            <div>
+              <button type="submit" class="signup-btn-3 btn">Sign me up!</button>
+              <input type="hidden" name="_subject" value="Request to join the mission">
+            </div>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer role="contentinfo">
     <img class="img-flex footer-img" src="images/footer-decor.png" alt="">
     <div class="grid wrapper island">
       <div class="unit xs-1 s-1 m-1-3 l-1-3">
