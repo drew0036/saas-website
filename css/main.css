@@ -1,6 +1,6 @@
 html {
   font-family: Montserrat, sans-serif;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 body {
@@ -29,7 +29,7 @@ h1 {
 }
 
 .current-2 {
-  color: #4F5EAB;
+  color: #4f5eab;
 }
 
 .nav {
@@ -54,7 +54,7 @@ h1 {
 
 .signup-btn {
   font-family: Raleway, sans-serif;
-  background-color: #F3A71D;
+  background-color: #f3a71d;
   border: 0px;
   border-radius: 5px;
   padding: 0 2em;
@@ -70,7 +70,7 @@ h1 {
 }
 
 .nav a:hover {
-  background-color: #4F5EAB;
+  background-color: #4f5eab;
   border: 0px;
   border-radius: 5px;
   color: #fff;
@@ -149,9 +149,9 @@ h1 {
 }
 
 .signup-btn-2:hover {
-  background-color: #F3A71D;
+  background-color: #f3a71d;
   color: #fff;
-  border: 3px solid #F3A71D;
+  border: 3px solid #f3a71d;
 }
 
 .login {
@@ -184,8 +184,8 @@ h1 {
 
 .tour-jump-btn a:hover {
   color: #fff;
-  background-color: #F3A71D;
-  border: 1px solid #F3A71D;
+  background-color: #f3a71d;
+  border: 1px solid #f3a71d;
 }
 
 .products, .services {
@@ -220,13 +220,13 @@ h1 {
 /* Newsletter */
 
 .email-form {
-  background-color: #F3A71D;
+  background-color: #f3a71d;
   width: 100%;
 }
 
 legend {
   font-family: Raleway, sans-serif;
-  color: #4F5EAB;
+  color: #4f5eab;
   font-weight: 700;
 }
 
@@ -236,7 +236,7 @@ fieldset {
 
 .signup-btn-3 {
   color: #fff;
-  background-color: #4F5EAB;
+  background-color: #4f5eab;
   border: 0px;
 }
 
@@ -267,11 +267,11 @@ footer li a {
 }
 
 footer li a:hover {
-  color: #4F5EAB;
+  color: #4f5eab;
 }
 
 footer h4 {
-  color: #4F5EAB;
+  color: #4f5eab;
 }
 
 /* Form */
@@ -293,8 +293,8 @@ footer h4 {
 }
 
 .form-btn:hover {
-  background-color: #F3A71D;
-  border: 1px solid #F3A71D;
+  background-color: #f3a71d;
+  border: 1px solid #f3a71d;
 }
 
 /* Tour Page */
@@ -325,7 +325,7 @@ caption {
 }
 
 .product-title {
-  color: #4F5EAB;
+  color: #4f5eab;
   font-weight: 700;
 }
 
@@ -417,7 +417,7 @@ caption {
     left: 50%;
     top: 30%;
     transform: translate(-50%, -30%);
-    color: #4F5EAB;
+    color: #4f5eab;
     font-weight: 700;
   }
 
