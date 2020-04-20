@@ -55,23 +55,22 @@ h1 {
 .signup-btn {
   font-family: Raleway, sans-serif;
   background-color: #f3a71d;
-  border: 0px;
+  border: 1px solid #f3a71d;
   border-radius: 5px;
   padding: 0 2em;
 }
 
 .nav a {
   display: block;
-  padding: 0.5em;
+  padding: .5em;
   text-decoration: none;
   color: #fff;
   font-family: Raleway, sans-serif;
-  font-weight: 700;
 }
 
 .nav a:hover {
   background-color: #4f5eab;
-  border: 0px;
+  border: 1px solid #4f5eab;
   border-radius: 5px;
   color: #fff;
 }
@@ -94,7 +93,7 @@ h1 {
   right: 0;
   bottom: 0;
   margin-right: 1em;
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
   background-image: url("../images/nav-icon.png");
   background-size: 40px auto;
   overflow: hidden;
@@ -132,7 +131,7 @@ h1 {
 }
 
 .banner-card {
-  background-color: #F4A1AF;
+  background-color: #f4a1af;
   color: #fff;
   border: 3px;
   max-width: 30em;
@@ -164,9 +163,9 @@ h1 {
 
 .vid-ab {
   position: absolute;
-  }
+}
 
-.content-rel{
+.content-rel {
   position: relative;
 }
 
@@ -178,7 +177,7 @@ h1 {
   background-color: #f05581;
   border: 1px solid #f05581;
   border-radius: 20px;
-  padding: 0 0.75em;
+  padding: 0 .75em;
   margin: 0;
 }
 
@@ -208,7 +207,7 @@ h1 {
   max-width: 16em;
   padding: 1em;
   background-color: #fff;
-  border: 3px solid #F4A1AF;
+  border: 3px solid #f4a1af;
   border-radius: 10px;
   text-align: left;
 }
@@ -227,7 +226,6 @@ h1 {
 legend {
   font-family: Raleway, sans-serif;
   color: #4f5eab;
-  font-weight: 700;
 }
 
 fieldset {
@@ -237,13 +235,15 @@ fieldset {
 .signup-btn-3 {
   color: #fff;
   background-color: #4f5eab;
-  border: 0px;
+  border: 1px solid #4f5eab;
+  border-radius: 5px;
 }
 
 .signup-btn-3:hover {
   color: #fff;
   background-color: #f05581;
-  border: 0px;
+  border: 1px solid #f05581;
+  border-radius: 5px;
 }
 
 /* Footer */
@@ -254,7 +254,7 @@ footer {
 }
 
 footer li {
-  padding: 0.5em 1em;
+  padding: .5em 1em;
   display: inline;
   text-align: left;
 }
@@ -263,7 +263,6 @@ footer li a {
   color: #fff;
   text-decoration: none;
   font-family: Raleway, sans-serif;
-  font-weight: 700;
 }
 
 footer li a:hover {
@@ -289,7 +288,7 @@ footer h4 {
   background-color: #f05581;
   border: 1px solid #f05581;
   border-radius: 10px;
-  padding: 0.5em 2em;
+  padding: .5em 2em;
 }
 
 .form-btn:hover {
@@ -312,7 +311,7 @@ table {
 tr {
   display: flex;
   flex-direction: column;
-  padding: 0 0.5em;
+  padding: 0 .5em;
 }
 
 td {
@@ -321,12 +320,10 @@ td {
 
 caption {
   color: #f05581;
-  font-weight: 700;
 }
 
 .product-title {
   color: #4f5eab;
-  font-weight: 700;
 }
 
 .tour-quote {
@@ -359,7 +356,6 @@ caption {
 
 }
 
-
 @media only screen and (min-width: 38em) {
 
   footer li {
@@ -376,7 +372,7 @@ caption {
   }
 
   header {
-  padding-bottom: 0;
+    padding-bottom: 0;
   }
 
   .nav-check,
@@ -392,15 +388,13 @@ caption {
   .nav ul {
     display: inline;
     flex-wrap: nowrap;
-    width: auto;
   }
 
   .nav li {
     display: inline-block;
-    width: auto;
   }
 
-/* Banner */
+  /* Banner */
 
   .vid {
     display: inline-block;
@@ -418,12 +412,6 @@ caption {
     top: 30%;
     transform: translate(-50%, -30%);
     color: #4f5eab;
-    font-weight: 700;
   }
-
-}
-
-@media only screen and (min-width: 60em) {
-
 
 }
