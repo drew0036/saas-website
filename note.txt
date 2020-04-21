@@ -1020,3 +1020,9 @@ footer nav li {
       flex-wrap: wrap;
       flex-basis: 50%;
     }
+
+
+    <li><a href="#tour-banner" aria-label="Skip to main banner">Skip to main banner</a></li>
+    <li><a href="#products" aria-label="Skip to products">Skip to products</a></li>
+    <li><a href="#services" aria-label="Skip to services">Skip to services</a></li>
+    <li><a href="#enews" aria-label="Skip to newsletter sign-up form">Skip to newsletter sign-up form</a></li>
