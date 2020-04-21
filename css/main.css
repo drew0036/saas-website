@@ -4,7 +4,7 @@ html {
 }
 
 header {
-  background-color: #db7094;
+  background-color: #f05581;
   position: relative;
   display: flex;
   z-index: 2;
@@ -33,7 +33,7 @@ h1 {
   /* margin: 0;
   padding: 0;
   list-style-type: none; */
-  background-color: #db7094;
+  background-color: #f05581;
   display: none;
   position: absolute;
   right: 0;
@@ -105,7 +105,7 @@ h1 {
 }
 
 .nav-check:checked ~ .nav-label {
-  background-color: #db7094;
+  background-color: #f05581;
   background-position: center bottom;
 }
 
@@ -129,7 +129,7 @@ h1 {
 
 .banner-card {
   background-color: #db7094;
-  color: #fff;
+  color: #000;
   border: 3px;
   max-width: 30em;
   z-index: 1;
@@ -151,7 +151,7 @@ h1 {
 }
 
 .login {
-  color: #fff;
+  color: #000;
 }
 
 .login:hover {
@@ -210,13 +210,12 @@ h1 {
 }
 
 .test-name {
-  color: #db7094;
+  color: #f05581;
 }
 
 /* Newsletter */
 
 .email-form {
-  background-color: #f3a71d;
   width: 100%;
 }
 
@@ -231,23 +230,23 @@ fieldset {
 
 .signup-btn-3 {
   color: #fff;
-  background-color: #4f5eab;
-  border: 1px solid #4f5eab;
+  background-color: #000;
+  border: 1px solid #000;
   border-radius: 5px;
 }
 
 .signup-btn-3:hover {
   color: #fff;
-  background-color: #db7094;
-  border: 1px solid #db7094;
+  background-color: #4f5eab;
+  border: 1px solid #4f5eab;
   border-radius: 5px;
 }
 
 /* Footer */
 
 footer {
-  color: #fff;
-  background-color: #db7094;
+  color: #000;
+  background-color: #f05581;
 }
 
 footer li {
@@ -263,7 +262,7 @@ footer li a {
 }
 
 footer li a:hover {
-  color: #fff;
+  color: #000;
 }
 
 footer h2 {
@@ -273,7 +272,7 @@ footer h2 {
 /* Form */
 
 .form-subtitle {
-  color: #db7094;
+  color: #000;
 }
 
 .form-indent {
@@ -305,18 +304,21 @@ table {
   height: auto;
 }
 
+thead {
+  display: none;
+}
+
 tr {
   display: flex;
   flex-direction: column;
-  padding: 0 .5em;
 }
 
 td {
-  border-bottom: 0px;
+  border-bottom: 0;
 }
 
 caption {
-  color: #db7094;
+  color: #000;
 }
 
 .product-title {
@@ -403,7 +405,6 @@ caption {
 
   .tour-quote {
     display: inline;
-    max-width: 38em;
     position: absolute;
     left: 50%;
     top: 30%;
