@@ -193,8 +193,8 @@ h1 {
 
 .tour-jump-btn a:hover {
   color: #fff;
-  background-color: #f3a71d;
-  border: 1px solid #f3a71d;
+  background-color: #4f5eab;
+  border: 1px solid #4f5eab;
 }
 
 .products, .services {
@@ -301,8 +301,8 @@ footer h2 {
 }
 
 .form-btn:hover {
-  background-color: #f3a71d;
-  border: 1px solid #f3a71d;
+  background-color: #4f5eab;
+  border: 1px solid #4f5eab;
 }
 
 /* Tour Page */
@@ -340,6 +340,41 @@ caption {
 
 .tour-quote {
   display: none;
+}
+
+.read-more {
+  color: #4f5eab;
+}
+
+.read-more:focus {
+  color: #000;
+  background-color: #f05581;
+}
+
+.undecided {
+  background-color: #f05581;
+}
+
+.undecided li {
+  padding: 0 1em;
+}
+
+.undecided-btn {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: .5em 2em;
+}
+
+.undecided-btn:hover {
+  background-color: #4f5eab;
+  border: 1px solid #4f5eab;
+}
+
+.undecided:focus {
+  color: #000;
+  background-color: #f05581;
 }
 
 @media only screen and (min-width: 24em) {
