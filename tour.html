@@ -14,6 +14,10 @@
   <ul class="skip-links">
     <li><a href="#main" aria-label="Skip to the main content">Skip to the main content</a></li>
     <li><a href="#nav" aria-label="Skip to navigation">Skip to navigation</a></li>
+    <li><a href="#tour-banner" aria-label="Skip to main banner">Skip to main banner</a></li>
+    <li><a href="#products" aria-label="Skip to products">Skip to products</a></li>
+    <li><a href="#services" aria-label="Skip to services">Skip to services</a></li>
+    <li><a href="#enews" aria-label="Skip to newsletter sign-up form">Skip to newsletter sign-up form</a></li>
   </ul>
   <header role="banner">
     <div class="grid wrapper grid-middle">
@@ -39,17 +43,17 @@
     </div>
   </header>
   <main role="main" id="main" tabindex="0">
-    <section class="tour-banner push">
-      <div class="relative">
-        <img class="img-flex" src="images/tourpage.png" alt="">
+    <section id="tour-banner" tabindex="0" class="tour-banner push">
+      <div class="embed embed-16by9 relative">
+        <img class="embed-item img-flex" src="images/tourpage.png" alt="open book">
       </div>
       <div class="tour-quote">
         <p class="mega bold push-0">“You are my rock, my light. I loved you in South Pacific. Stacks = 5/5 stars!”</p>
         <p class="kilo italic text-right">- Shawna, A.</p>
       </div>
     </section>
-    <section class="pad-t">
-      <table class="wrapper">
+    <section id="products" tabindex="0" class="pad-t wrapper">
+      <table>
         <caption class="giga not-italic bold push-1-2 gutter">Products</caption>
         <thead>
           <tr>
@@ -60,59 +64,68 @@
         </thead>
         <tbody>
           <tr>
-            <th><img class="col-1 img-flex" src="images/product-1.png" alt=""></th>
+            <th scope="col"><img class="col-1 img-flex" src="images/product-1.png" alt=""></th>
             <td class="col-1 bold product-title">Photo Books</td>
             <td class="col-2 milli push">Create your visual story in the most beautiful way with a professional-quality photo book.</td>
           </tr>
           <tr>
-            <th><img class="col-1 img-flex" src="images/product-2.png" alt=""></th>
+            <th scope="col"><img class="col-1 img-flex" src="images/product-2.png" alt=""></th>
             <td class="col-1 bold product-title">Trade Books</td>
             <td class="col-2 milli push">Balance print quality with page cost so you can get more of your work in the world.</td>
           </tr>
           <tr>
-            <th><img class="col-1 img-flex" src="images/product-3.png" alt=""></th>
+            <th scope="col"><img class="col-1 img-flex" src="images/product-3.png" alt=""></th>
             <td class="col-1 bold product-title">Business Cards</td>
             <td class="col-2 milli push">A standard 2x3 inch card that displays contact information for an individual employed by a company.</td>
           </tr>
           <tr>
-            <th><img class="col-1 img-flex" src="images/product-4.png" alt=""></th>
+            <th scope="col"><img class="col-1 img-flex" src="images/product-4.png" alt=""></th>
             <td class="col-1 bold product-title">Notebooks</td>
             <td class="col-2 milli push">Our notebooks are completely custom, cover to cover. Get started quickly and easily on your next notebook or journal in our book-making tool BookRight.</td>
           </tr>
           <tr>
-            <th><img class="col-1 img-flex" src="images/product-5.png" alt=""></th>
+            <th scope="col"><img class="col-1 img-flex" src="images/product-5.png" alt=""></th>
             <td class="col-1 bold product-title">Magazines</td>
             <td class="col-2 milli push">Put your brilliant ideas in print with a newsstand-quality magazine, great for serial content or high-volume printing projects.</td>
           </tr>
           <tr>
-            <th><img class="col-1 img-flex" src="images/product-6.png" alt=""></th>
+            <th scope="col"><img class="col-1 img-flex" src="images/product-6.png" alt=""></th>
             <td class="col-1 bold product-title">Flyers</td>
             <td class="col-2 milli push">A flyer is a form of paper advertisement intended for wide distribution and typically posted or distributed in a public place, handed out to individuals or sent through the mail..</td>
           </tr>
         </tbody>
       </table>
-      <table class="wrapper">
+    </section>
+    <section id="services" tabindex="0" class="wrapper">
+      <table>
         <caption class="giga not-italic bold push-1-2 gutter">Services</caption>
+        <thead>
+          <tr>
+            <th scope="col">Services Image</th>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
         <tbody>
           <tr>
-            <th><img class="col-1 img-flex" src="images/services-1.png" alt=""></th>
+            <th scope="col"><img class="col-1 img-flex" src="images/services-1.png" alt=""></th>
             <td class="col-1 bold product-title">Large Order Services</td>
             <td class="col-2 milli push">Get assistance with large book printing orders from our in-house experts, who can help bring your project to life.</td>
           </tr>
-          <tr>
-            <th><img class="col-1 img-flex" src="images/services-2.png" alt=""></th>
+          <tr class="gutter">
+            <th scope="col"><img class="col-1 img-flex" src="images/services-2.png" alt=""></th>
             <td class="col-1 bold product-title">API Printing</td>
             <td class="col-2 milli push">Connect your projects to our world-class print-on-demand and shipping services with Stacks Print API.</td>
           </tr>
           <tr>
-            <th><img class="col-1 img-flex" src="images/services-3.png" alt=""></th>
+            <th scope="col"><img class="col-1 img-flex" src="images/services-3.png" alt=""></th>
             <td class="col-1 bold product-title">Hire An Expert</td>
             <td class="col-2 milli push">Need help in your publishing efforts? These Stacks-approved experts are available to assist you.</td>
           </tr>
         </tbody>
       </table>
     </section>
-    <section>
+    <section id="enews" tabindex="0">
       <form class="email-form island" method="POST" action="https://formspree.io/drew0036@algonquinlive.com">
         <fieldset class="max-length push-0">
           <legend class="giga 700">Looking to boost inspiration?</legend>

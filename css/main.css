@@ -326,7 +326,7 @@ tr {
   flex-direction: column;
 }
 
-td {
+th, td {
   border-bottom: 0;
 }
 
