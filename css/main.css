@@ -3,12 +3,8 @@ html {
   background-color: #fafafa;
 }
 
-body {
-  margin: 0;
-}
-
 header {
-  background-color: #f05581;
+  background-color: #db7094;
   position: relative;
   display: flex;
   z-index: 2;
@@ -20,7 +16,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   display: inline-block;
-  color: #fdf100;
+  color: #fff;
   margin: 0;
 }
 
@@ -29,14 +25,15 @@ h1 {
 }
 
 .current-2 {
-  color: #4f5eab;
+  color: #fff;
+  text-decoration: underline;
 }
 
 .nav {
   /* margin: 0;
   padding: 0;
   list-style-type: none; */
-  background-color: #f05581;
+  background-color: #db7094;
   display: none;
   position: absolute;
   right: 0;
@@ -53,18 +50,18 @@ h1 {
 }
 
 .signup-btn {
-  font-family: Raleway, sans-serif;
-  background-color: #f3a71d;
-  border: 1px solid #f3a71d;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #000;
   border-radius: 5px;
   padding: 0 2em;
 }
 
 .nav a {
+  color: #fff;
   display: block;
   padding: .5em;
   text-decoration: none;
-  color: #fff;
   font-family: Raleway, sans-serif;
 }
 
@@ -108,7 +105,7 @@ h1 {
 }
 
 .nav-check:checked ~ .nav-label {
-  background-color: #f05581;
+  background-color: #db7094;
   background-position: center bottom;
 }
 
@@ -131,7 +128,7 @@ h1 {
 }
 
 .banner-card {
-  background-color: #f4a1af;
+  background-color: #db7094;
   color: #fff;
   border: 3px;
   max-width: 30em;
@@ -140,17 +137,17 @@ h1 {
 
 .signup-btn-2 {
   font-family: Raleway, sans-serif;
-  background-color: #fff;
-  border: 3px solid #fff;
+  background-color: #000;
+  border: 3px solid #000;
   border-radius: 20px;
-  color: #f05581;
+  color: #fff;
   padding: 0 2em;
 }
 
 .signup-btn-2:hover {
-  background-color: #f3a71d;
   color: #fff;
-  border: 3px solid #f3a71d;
+  background-color: #4f5eab;
+  border: 3px solid #4f5eab;
 }
 
 .login {
@@ -158,7 +155,7 @@ h1 {
 }
 
 .login:hover {
-  color: #000;
+  color: #4f5eab;
 }
 
 .vid-ab {
@@ -174,8 +171,8 @@ h1 {
 .tour-jump-btn a {
   color: #fff;
   text-decoration: none;
-  background-color: #f05581;
-  border: 1px solid #f05581;
+  background-color: #db7094;
+  border: 1px solid #db7094;
   border-radius: 20px;
   padding: 0 .75em;
   margin: 0;
@@ -213,7 +210,7 @@ h1 {
 }
 
 .test-name {
-  color: #f05581;
+  color: #db7094;
 }
 
 /* Newsletter */
@@ -225,7 +222,7 @@ h1 {
 
 legend {
   font-family: Raleway, sans-serif;
-  color: #4f5eab;
+  color: #000;
 }
 
 fieldset {
@@ -241,8 +238,8 @@ fieldset {
 
 .signup-btn-3:hover {
   color: #fff;
-  background-color: #f05581;
-  border: 1px solid #f05581;
+  background-color: #db7094;
+  border: 1px solid #db7094;
   border-radius: 5px;
 }
 
@@ -250,7 +247,7 @@ fieldset {
 
 footer {
   color: #fff;
-  background-color: #f05581;
+  background-color: #db7094;
 }
 
 footer li {
@@ -266,17 +263,17 @@ footer li a {
 }
 
 footer li a:hover {
-  color: #4f5eab;
+  color: #fff;
 }
 
-footer h4 {
-  color: #4f5eab;
+footer h2 {
+  color: #fff;
 }
 
 /* Form */
 
 .form-subtitle {
-  color: #f05581;
+  color: #db7094;
 }
 
 .form-indent {
@@ -285,8 +282,8 @@ footer h4 {
 
 .form-btn {
   color: #fff;
-  background-color: #f05581;
-  border: 1px solid #f05581;
+  background-color: #db7094;
+  border: 1px solid #db7094;
   border-radius: 10px;
   padding: .5em 2em;
 }
@@ -319,7 +316,7 @@ td {
 }
 
 caption {
-  color: #f05581;
+  color: #db7094;
 }
 
 .product-title {
